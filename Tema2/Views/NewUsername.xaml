@@ -1,0 +1,18 @@
+﻿<Window x:Class="Tema2.Views.NewUsername"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Tema2.Views"
+        mc:Ignorable="d"
+        Title="NewUser" Height="300" Width="450" Top="275" Left="370" >
+    <Grid>
+        <WrapPanel Margin="43,94,33.2,123.4">
+            <Label Width="100" Content="Username: " FontFamily="Trebuchet MS" FontSize="14" FontWeight="Bold" Height="26" />
+            <TextBox Name="usernameTxt" Width="250" FontFamily="Trebuchet MS" FontWeight="Bold" FontSize="14"  TextAlignment="Center" Height="24">Answer</TextBox>
+        </WrapPanel>
+
+        <Button IsDefault="True" Name="Add" Click="btnAdd"  MinWidth="60" Margin="193,152,98.2,88.4" FontFamily="Trebuchet MS" FontSize="16" FontWeight="Bold" >Add user</Button>
+
+    </Grid>
+</Window>

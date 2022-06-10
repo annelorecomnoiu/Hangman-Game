@@ -1,0 +1,20 @@
+﻿<Window x:Class="Tema2.Views.Statistics"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Tema2.Views"
+        mc:Ignorable="d"
+        Title="Statistics" Height="450" Width="800" Top="190" Left="370">
+    <Grid Background="#FFEEAD35">
+
+        <TextBlock x:Name="txt1" Text="Username" Visibility="Hidden" FontWeight="Bold" FontFamily="Trebuchet MS" Margin="84,26,503.6,360" FontSize="20" TextAlignment="Center" />
+        <TextBlock Name="txt2" Text="Number of games" Visibility="Hidden" FontWeight="Bold" FontFamily="Trebuchet MS" Margin="295,26,287.6,360" FontSize="20" TextAlignment="Center" />
+        <TextBlock x:Name="txt3" Text="Games Won/Category" Visibility="Hidden"  FontWeight="Bold" FontFamily="Trebuchet MS" Margin="511,26,58.6,360" FontSize="20" TextAlignment="Center" />
+        
+        <TextBlock Name="txtBlock1" FontWeight="Bold" FontFamily="Trebuchet MS" Margin="84,81,503.6,36" FontSize="16" TextAlignment="Center" />
+        <TextBlock Name="txtBlock2" FontWeight="Bold" FontFamily="Trebuchet MS" Margin="295,81,287.6,36" FontSize="16" TextAlignment="Center" />
+        <TextBlock Name="txtBlock3" FontWeight="Bold" FontFamily="Trebuchet MS" Margin="511,81,58.6,36" FontSize="16" TextAlignment="Center" />
+        <Button x:Name="view" Content="View Statistics" Click="Button_Click" Margin="238,149,251.6,161" FontSize="36" FontWeight="Bold" FontFamily="Trebuchet MS" Background="White" ></Button>
+    </Grid>
+</Window>

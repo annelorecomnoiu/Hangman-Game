@@ -1,0 +1,14 @@
+donald
+file:///C:/Users/User/Desktop/Tema2/Tema2/Resources/Avatars/donald.jpg
+2
+00000
+ 
+Game 1
+Level: 0
+Word1: POCAHONTAS
+Word2:  _ O _ A _ O _ _ A _
+Category: Cartoons
+Correct: A O 
+Incorrect: L 
+Mistakes: 1
+Time Left: 55

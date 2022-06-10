@@ -1,0 +1,25 @@
+jerry
+file:///C:/Users/User/Desktop/Tema2/Tema2/Resources/Avatars/mouse.jpg
+5
+00001
+
+ 
+Game 1
+Level: 1
+Word1: TITANIC
+Word2:  _ _ _ A _ _ C
+Category: Movies
+Correct: A C 
+Incorrect: L 
+Mistakes: 1
+Time Left: 52
+ 
+Game 2
+Level: 0
+Word1: RANGE ROVER
+Word2:  R A _ _ _   R _ _ _ R
+Category: Cars
+Correct: A R 
+Incorrect: M K P 
+Mistakes: 3
+Time Left: 46
